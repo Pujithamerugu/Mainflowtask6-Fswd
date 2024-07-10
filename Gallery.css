@@ -1,0 +1,27 @@
+.gallery {
+     display: grid;
+     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+     gap: 5px; 
+     padding: 10px;
+     min-height: 74vh;
+     justify-items: center;
+     background-color: #0C134F; 
+   }
+   
+   .image-item {
+     margin: 0; 
+     padding: 0; 
+   }
+   
+   .image-item img {
+     width: 100%; 
+     height: auto; 
+     object-fit: cover; 
+     border-radius: 2px;
+     transition: transform 0.2s;
+   }
+   
+   .image-item img:hover {
+     transform: scale(1.05);
+   }
+   

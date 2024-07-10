@@ -1,0 +1,17 @@
+.image-item {
+     margin: 0;
+     padding: 0px; 
+   }
+   
+   .image-item img {
+     width: 185px; 
+     height: 185px; 
+     object-fit: cover; 
+     border-radius: 8px;
+     transition: transform 0.2s;
+   }
+   
+   .image-item img:hover {
+     transform: scale(1.05);
+   }
+   
